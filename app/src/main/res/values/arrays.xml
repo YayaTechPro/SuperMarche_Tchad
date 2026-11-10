@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Category keys are what we store in the database (never translated) -->
+    <string-array name="category_keys">
+        <item>Food</item>
+        <item>Dairy</item>
+        <item>Hygiene</item>
+        <item>Drinks</item>
+        <item>Other</item>
+    </string-array>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SuperMarché Tchad</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_products">Products</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_title">Welcome!</string>
+    <string name="welcome_subtitle">Manage your supermarket stock easily</string>
+    <string name="stat_total_products">Total products</string>
+    <string name="stat_inventory_value">Inventory value</string>
+    <string name="stat_low_stock">Low stock</string>
+    <string name="stat_out_of_stock">Out of stock</string>
+    <string name="section_recent">Recently added</string>
+    <string name="section_alerts">Stock alerts</string>
+    <string name="empty_products">No products found</string>
+    <string name="empty_alerts">No stock alerts. Everything looks good!</string>
+
+    <!-- Products -->
+    <string name="products_title">Products</string>
+    <string name="search_hint">Search products</string>
+    <string name="add_product">Add Product</string>
+    <string name="edit_product_title">Edit Product</string>
+    <string name="cd_edit">Edit</string>
+    <string name="cd_delete">Delete</string>
+    <string name="quantity_label">Quantity: %1$d</string>
+    <string name="price_format">%1$s FCFA</string>
+    <string name="status_in_stock">In stock</string>
+    <string name="status_low">Low stock</string>
+    <string name="status_out">Out of stock</string>
+
+    <!-- Form -->
+    <string name="hint_name">Product name</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_price">Price (FCFA)</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="hint_min_stock">Minimum stock quantity</string>
+    <string name="save_product">Save Product</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="error_name_empty">Product name cannot be empty</string>
+    <string name="error_price_invalid">Price must be greater than zero</string>
+    <string name="error_quantity_invalid">Quantity cannot be negative</string>
+    <string name="error_min_stock_invalid">Minimum stock cannot be negative</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="msg_saved">Product saved successfully</string>
+    <string name="msg_updated">Product updated successfully</string>
+    <string name="msg_deleted">Product deleted</string>
+
+    <!-- Delete dialog -->
+    <string name="dialog_delete_title">Delete product</string>
+    <string name="dialog_delete_message">Are you sure you want to delete \"%1$s\"?</string>
+    <string name="dialog_delete_confirm">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">Stock Alerts</string>
+    <string name="alerts_low_title">Low stock (%1$d)</string>
+    <string name="alerts_out_title">Out of stock (%1$d)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_french">Français</string>
+    <string name="settings_application">Application</string>
+    <string name="settings_app_name_label">Application name</string>
+    <string name="settings_version_label">Version</string>
+    <string name="settings_currency">Currency</string>
+    <string name="settings_currency_value">Central African CFA franc (XAF), displayed as FCFA</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_text">SuperMarché Tchad is a simple stock management app for a small supermarket in Chad. It was created as a university project using Kotlin, XML layouts and SQLite.</string>
+
+    <!-- Categories (same order as category_keys) -->
+    <string-array name="category_labels">
+        <item>Food</item>
+        <item>Dairy</item>
+        <item>Hygiene</item>
+        <item>Drinks</item>
+        <item>Other</item>
+    </string-array>
+</resources>

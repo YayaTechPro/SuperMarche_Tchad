@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SuperMarché Tchad</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_products">Produits</string>
+    <string name="nav_alerts">Alertes</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_title">Bienvenue !</string>
+    <string name="welcome_subtitle">Gérez facilement le stock de votre supermarché</string>
+    <string name="stat_total_products">Total des produits</string>
+    <string name="stat_inventory_value">Valeur du stock</string>
+    <string name="stat_low_stock">Stock faible</string>
+    <string name="stat_out_of_stock">Rupture de stock</string>
+    <string name="section_recent">Ajoutés récemment</string>
+    <string name="section_alerts">Alertes de stock</string>
+    <string name="empty_products">Aucun produit trouvé</string>
+    <string name="empty_alerts">Aucune alerte de stock. Tout va bien !</string>
+
+    <!-- Products -->
+    <string name="products_title">Produits</string>
+    <string name="search_hint">Rechercher un produit</string>
+    <string name="add_product">Ajouter un produit</string>
+    <string name="edit_product_title">Modifier le produit</string>
+    <string name="cd_edit">Modifier</string>
+    <string name="cd_delete">Supprimer</string>
+    <string name="quantity_label">Quantité : %1$d</string>
+    <string name="price_format">%1$s FCFA</string>
+    <string name="status_in_stock">En stock</string>
+    <string name="status_low">Stock faible</string>
+    <string name="status_out">Rupture</string>
+
+    <!-- Form -->
+    <string name="hint_name">Nom du produit</string>
+    <string name="hint_category">Catégorie</string>
+    <string name="hint_price">Prix (FCFA)</string>
+    <string name="hint_quantity">Quantité</string>
+    <string name="hint_min_stock">Quantité de stock minimum</string>
+    <string name="save_product">Enregistrer le produit</string>
+    <string name="save_changes">Enregistrer les modifications</string>
+    <string name="error_name_empty">Le nom du produit ne peut pas être vide</string>
+    <string name="error_price_invalid">Le prix doit être supérieur à zéro</string>
+    <string name="error_quantity_invalid">La quantité ne peut pas être négative</string>
+    <string name="error_min_stock_invalid">Le stock minimum ne peut pas être négatif</string>
+    <string name="error_generic">Une erreur est survenue. Veuillez réessayer.</string>
+    <string name="msg_saved">Produit enregistré avec succès</string>
+    <string name="msg_updated">Produit mis à jour avec succès</string>
+    <string name="msg_deleted">Produit supprimé</string>
+
+    <!-- Delete dialog -->
+    <string name="dialog_delete_title">Supprimer le produit</string>
+    <string name="dialog_delete_message">Voulez-vous vraiment supprimer « %1$s » ?</string>
+    <string name="dialog_delete_confirm">Supprimer</string>
+    <string name="dialog_cancel">Annuler</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">Alertes de stock</string>
+    <string name="alerts_low_title">Stock faible (%1$d)</string>
+    <string name="alerts_out_title">Rupture de stock (%1$d)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_language">Langue</string>
+    <string name="language_english">English</string>
+    <string name="language_french">Français</string>
+    <string name="settings_application">Application</string>
+    <string name="settings_app_name_label">Nom de l\'application</string>
+    <string name="settings_version_label">Version</string>
+    <string name="settings_currency">Devise</string>
+    <string name="settings_currency_value">Franc CFA d\'Afrique centrale (XAF), affiché en FCFA</string>
+    <string name="settings_about">À propos</string>
+    <string name="settings_about_text">SuperMarché Tchad est une application simple de gestion de stock pour un petit supermarché au Tchad. Elle a été réalisée comme projet universitaire avec Kotlin, des layouts XML et SQLite.</string>
+
+    <!-- Categories (same order as category_keys) -->
+    <string-array name="category_labels">
+        <item>Alimentation</item>
+        <item>Produits laitiers</item>
+        <item>Hygiène</item>
+        <item>Boissons</item>
+        <item>Autre</item>
+    </string-array>
+</resources>
